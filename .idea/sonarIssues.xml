@@ -193,6 +193,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/schema.sql">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/org/nrp/crm/controller/DepartmentControllerIntegrationTest.java">
           <value>
             <set />
