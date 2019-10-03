@@ -1,0 +1,5 @@
+org/nrp/crm/repository/DepartmentRepositoryTest.class
+org/nrp/crm/controller/DepartmentControllerIntegrationTest.class
+org/nrp/crm/CrmApplicationTests.class
+org/nrp/crm/controller/DepartmentControllerTest.class
+org/nrp/crm/service/DepartmentServiceTest.class

@@ -1,0 +1,55 @@
+2019-07-27 07:55:01,715 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 3734 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 07:55:01,718 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 07:55:22,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 22.487 seconds (JVM running for 23.598)
+2019-07-27 08:09:50,547 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-2] Department Get ALL
+2019-07-27 08:09:50,587 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-2] Getting All Departments
+2019-07-27 08:09:54,384 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-3] Department Get ALL
+2019-07-27 08:09:54,390 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-3] Getting All Departments
+2019-07-27 08:10:29,306 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-4] Department found: Department{id=11, name='Physics'}
+2019-07-27 08:11:12,290 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-5] Department added Department{id=25, name='B.Pharmacy'}
+2019-07-27 08:11:41,858 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-6] Deparment updated: Department{id=25, name='B.Pharacy Updated'}
+2019-07-27 08:12:09,675 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-7] Deparment deleted: Department{id=25, name='B.Pharacy Updated'}
+2019-07-27 08:13:12,529 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-10] Department not found: 25
+2019-07-27 08:13:37,031 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-1] Department not found: 25
+2019-07-27 08:16:22,740 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 4553 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:16:22,742 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:16:34,657 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 12.672 seconds (JVM running for 13.542)
+2019-07-27 08:16:41,984 INFO org.nrp.crm.service.DepartmentService [http-nio-8080-exec-2] Deparment deleted: Department{id=24, name='Physics'}
+2019-07-27 08:53:05,867 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 4553 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:53:05,868 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:53:09,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 4553 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:53:09,660 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:53:14,829 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 5.271 seconds (JVM running for 2213.713)
+2019-07-27 08:53:15,663 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 5227 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:53:15,665 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:54:29,161 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 4553 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:54:29,168 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:54:32,169 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 3.085 seconds (JVM running for 2291.053)
+2019-07-27 08:54:36,362 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 5352 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:54:36,369 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:09,576 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 4553 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:09,577 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:12,738 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 3.26 seconds (JVM running for 2391.623)
+2019-07-27 08:56:15,965 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 5512 (started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:15,967 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:27,424 INFO org.springframework.boot.StartupInfoLogger [main] Started CrmApplicationTests in 12.181 seconds (JVM running for 13.566)
+2019-07-27 08:56:27,726 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 5512 (started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:27,728 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:29,044 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentRepositoryTest in 1.385 seconds (JVM running for 15.187)
+2019-07-27 08:56:29,555 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 5512 (started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:29,555 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:34,686 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerIntegrationTest in 5.171 seconds (JVM running for 20.828)
+2019-07-27 08:56:36,118 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-1] Department added Department{id=1, name='Mathematics'}
+2019-07-27 08:56:36,434 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department added Department{id=2, name='Test Dept'}
+2019-07-27 08:56:36,713 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department found: Department{id=2, name='Test Dept'}
+2019-07-27 08:56:36,856 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 5512 (started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:36,857 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:38,735 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 1.913 seconds (JVM running for 24.877)
+2019-07-27 08:56:39,163 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 5512 (started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:56:39,164 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-07-27 08:56:42,729 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentServiceTest in 3.606 seconds (JVM running for 28.872)
+2019-07-27 08:56:42,834 INFO org.nrp.crm.service.DepartmentService [main] Department found: Department{id=1, name='Physics'}
+2019-07-27 08:56:42,893 INFO org.nrp.crm.service.DepartmentService [main] Department added Department{id=1, name='Mathematics'}
+2019-07-27 08:58:08,544 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CrmApplication on vinod with PID 5736 (/home/vinod/Desktop/desk/projects/springbootrestapi/target/classes started by vinod in /home/vinod/Desktop/desk/projects/springbootrestapi)
+2019-07-27 08:58:08,546 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 08:58:20,416 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CrmApplication in 12.922 seconds (JVM running for 13.811)
