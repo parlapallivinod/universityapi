@@ -8,14 +8,14 @@
 		<version>2.1.5.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>org.nrp</groupId>
-	<artifactId>crm</artifactId>
+	<groupId>in.rgukt.r081247</groupId>
+	<artifactId>university_api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>crm</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>

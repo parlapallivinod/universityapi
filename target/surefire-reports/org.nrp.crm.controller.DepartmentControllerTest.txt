@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.nrp.crm.controller.DepartmentControllerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.155 s - in org.nrp.crm.controller.DepartmentControllerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.47 s - in org.nrp.crm.controller.DepartmentControllerTest

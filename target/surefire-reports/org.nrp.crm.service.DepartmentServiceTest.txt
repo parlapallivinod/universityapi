@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.nrp.crm.service.DepartmentServiceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.577 s - in org.nrp.crm.service.DepartmentServiceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.682 s - in org.nrp.crm.service.DepartmentServiceTest

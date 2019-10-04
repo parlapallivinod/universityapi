@@ -1,90 +1,20 @@
-2019-10-03 07:59:08,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:08,982 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:16,753 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:16,758 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:17,798 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:17,811 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:18,674 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:18,676 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:19,449 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:19,461 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:20,343 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:20,345 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:21,088 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:21,089 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:21,946 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:21,947 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:25,220 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:25,222 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:27,065 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:27,065 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:28,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:28,457 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:30,023 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:30,025 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:34,233 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 4.271 seconds (JVM running for 30.335)
-2019-10-03 07:59:35,210 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:35,210 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:36,352 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:36,353 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:37,383 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:37,384 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:38,328 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:38,329 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 07:59:39,340 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4269 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 07:59:39,341 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:30,573 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:30,579 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:35,645 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:35,717 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:36,252 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:36,254 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:36,843 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:36,845 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:37,614 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:37,631 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:38,441 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:38,443 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:39,012 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:39,015 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:39,598 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:39,600 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:42,205 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:42,206 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:43,939 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:43,940 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:45,490 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:45,490 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:47,055 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:47,058 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:50,492 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 3.508 seconds (JVM running for 22.28)
-2019-10-03 08:01:51,581 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:51,582 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:52,590 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:52,591 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:53,475 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:53,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:54,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:54,271 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:01:55,139 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4520 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:01:55,140 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:04:42,440 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 4754 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:04:42,453 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:04:55,171 INFO org.springframework.boot.StartupInfoLogger [main] Started CrmApplicationTests in 13.55 seconds (JVM running for 14.943)
-2019-10-03 08:04:55,644 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 4754 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:04:55,646 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:04:56,943 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentRepositoryTest in 1.388 seconds (JVM running for 16.714)
-2019-10-03 08:04:57,453 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 4754 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:04:57,453 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:05:02,418 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerIntegrationTest in 5.011 seconds (JVM running for 22.19)
-2019-10-03 08:05:03,436 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-1] Department added Department{id=1, name='Mathematics'}
-2019-10-03 08:05:03,722 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department added Department{id=2, name='Test Dept'}
-2019-10-03 08:05:03,957 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department found: Department{id=2, name='Test Dept'}
-2019-10-03 08:05:04,129 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 4754 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:05:04,130 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:05:05,970 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 1.879 seconds (JVM running for 25.741)
-2019-10-03 08:05:06,261 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 4754 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
-2019-10-03 08:05:06,262 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-10-03 08:05:09,633 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentServiceTest in 3.433 seconds (JVM running for 29.405)
-2019-10-03 08:05:09,688 INFO org.nrp.crm.service.DepartmentService [main] Department found: Department{id=1, name='Physics'}
-2019-10-03 08:05:09,728 INFO org.nrp.crm.service.DepartmentService [main] Department added Department{id=1, name='Mathematics'}
+2019-10-04 08:56:11,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
+2019-10-04 08:56:11,550 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 08:56:49,637 INFO org.springframework.boot.StartupInfoLogger [main] Started CrmApplicationTests in 44.688 seconds (JVM running for 51.869)
+2019-10-04 08:56:50,407 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentRepositoryTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
+2019-10-04 08:56:50,409 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 08:56:52,237 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentRepositoryTest in 1.889 seconds (JVM running for 54.469)
+2019-10-04 08:56:52,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
+2019-10-04 08:56:52,943 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 08:56:59,263 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerIntegrationTest in 6.417 seconds (JVM running for 61.496)
+2019-10-04 08:57:00,700 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-1] Department added Department{id=1, name='Mathematics'}
+2019-10-04 08:57:01,058 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department added Department{id=2, name='Test Dept'}
+2019-10-04 08:57:01,316 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-3] Department found: Department{id=2, name='Test Dept'}
+2019-10-04 08:57:01,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
+2019-10-04 08:57:01,493 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 08:57:04,207 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 2.757 seconds (JVM running for 66.44)
+2019-10-04 08:57:04,943 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
+2019-10-04 08:57:04,956 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-10-04 08:57:10,306 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentServiceTest in 5.439 seconds (JVM running for 72.539)
+2019-10-04 08:57:10,408 INFO org.nrp.crm.service.DepartmentService [main] Department found: Department{id=1, name='Physics'}
+2019-10-04 08:57:10,463 INFO org.nrp.crm.service.DepartmentService [main] Department added Department{id=1, name='Mathematics'}
