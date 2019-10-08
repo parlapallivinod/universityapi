@@ -11,8 +11,8 @@
 	<groupId>in.rgukt.r081247</groupId>
 	<artifactId>university_api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>crm</name>
-	<description>Demo project for Spring Boot</description>
+	<name>university_api</name>
+	<description>university api</description>
 
 	<properties>
 		<java.version>11</java.version>
