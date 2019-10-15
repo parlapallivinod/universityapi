@@ -81,7 +81,7 @@
 2019-05-23 07:30:42,461 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-23 07:30:42,462 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
 2019-05-23 07:30:42,480 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 18 ms
-2019-05-23 07:30:55,077 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-3] Department Get ALL
+2019-05-23 07:30:55,077 INFO DepartmentController [http-nio-8080-exec-3] Department Get ALL
 2019-05-23 07:30:55,221 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-3] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-23 07:39:41,592 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 7124 (started by vinod in /home/vinod/Desktop/desk/projects/crm)
 2019-05-23 07:39:41,605 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
@@ -242,7 +242,7 @@
 2019-05-23 07:53:45,524 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-23 07:53:45,525 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-23 07:53:45,543 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 17 ms
-2019-05-23 07:53:59,111 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-4] Department Get ALL
+2019-05-23 07:53:59,111 INFO DepartmentController [http-nio-8080-exec-4] Department Get ALL
 2019-05-23 07:53:59,157 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-4] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-23 07:55:01,481 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 8159 (started by vinod in /home/vinod/Desktop/desk/projects/crm)
 2019-05-23 07:55:01,486 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE

@@ -7,14 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springbootrestapi" />
-        <module name="crm" />
+        <module name="universityapi" />
+        <module name="universtyapi" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="crm" options="-parameters" />
       <module name="springbootrestapi" options="-parameters" />
+      <module name="universityapi" options="-parameters" />
+      <module name="universtyapi" options="-parameters" />
     </option>
   </component>
 </project>

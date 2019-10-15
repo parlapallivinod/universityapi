@@ -145,7 +145,7 @@
 2019-05-25 17:36:52,863 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 17:36:52,865 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 17:36:52,882 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 17 ms
-2019-05-25 17:37:19,811 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-5] Department Get ALL
+2019-05-25 17:37:19,811 INFO DepartmentController [http-nio-8080-exec-5] Department Get ALL
 2019-05-25 17:37:19,888 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-5] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-25 17:40:00,563 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 3609 (started by vinod in /home/vinod/Desktop/desk/projects/crm)
 2019-05-25 17:40:00,566 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
@@ -257,7 +257,7 @@
 2019-05-25 17:44:16,296 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 17:44:16,297 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 17:44:16,317 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 19 ms
-2019-05-25 17:44:41,374 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-5] Department Get ALL
+2019-05-25 17:44:41,374 INFO DepartmentController [http-nio-8080-exec-5] Department Get ALL
 2019-05-25 17:44:41,464 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-5] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-25 17:45:12,674 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Error parsing HTTP request header
  Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
@@ -371,7 +371,7 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2019-05-25 17:50:46,857 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 17:50:46,858 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 17:50:46,877 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 19 ms
-2019-05-25 17:51:13,839 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-6] Department Get ALL
+2019-05-25 17:51:13,839 INFO DepartmentController [http-nio-8080-exec-6] Department Get ALL
 2019-05-25 17:51:13,923 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-6] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-25 17:55:25,660 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplication on vinod with PID 4874 (/home/vinod/Desktop/desk/projects/crm/target/classes started by vinod in /home/vinod/Desktop/desk/projects/crm)
 2019-05-25 17:55:25,663 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
@@ -404,7 +404,7 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2019-05-25 17:55:38,122 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 17:55:38,122 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 17:55:38,135 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 13 ms
-2019-05-25 17:55:38,175 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-1] Department Get ALL
+2019-05-25 17:55:38,175 INFO DepartmentController [http-nio-8080-exec-1] Department Get ALL
 2019-05-25 17:55:38,212 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-25 17:59:36,885 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
 2019-05-25 17:59:36,891 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
@@ -414,12 +414,12 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 2019-05-25 18:00:15,588 INFO org.springframework.boot.StartupInfoLogger [main] Starting CrmApplicationTests on vinod with PID 5366 (started by vinod in /home/vinod/Desktop/desk/projects/crm)
 2019-05-25 18:00:15,603 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
 2019-05-25 18:00:15,612 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
-2019-05-25 18:00:16,412 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.nrp.crm.CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+2019-05-25 18:00:16,412 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
 2019-05-25 18:00:16,468 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 2019-05-25 18:00:16,476 ERROR org.springframework.boot.SpringApplication [main] Application run failed
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.nrp.crm.CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
 	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:596)
 	at org.springframework.context.annotation.ConfigurationClassParser.access$900(ConfigurationClassParser.java:108)
 	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:805)
@@ -490,7 +490,7 @@ Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true;'
 	at org.springframework.core.convert.support.GenericConversionService$ConverterAdapter.convert(GenericConversionService.java:385)
 	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41)
 	... 57 common frames omitted
-2019-05-25 18:00:16,480 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@62150f9e] to prepare test instance [org.nrp.crm.CrmApplicationTests@655ef322]
+2019-05-25 18:00:16,480 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@62150f9e] to prepare test instance [CrmApplicationTests@655ef322]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
@@ -520,7 +520,7 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.nrp.crm.CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [CrmApplication]; nested exception is java.lang.IllegalStateException: Error processing condition on org.springframework.boot.actuate.autoconfigure.audit.AuditEventsEndpointAutoConfiguration
 	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:596)
 	at org.springframework.context.annotation.ConfigurationClassParser.access$900(ConfigurationClassParser.java:108)
 	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:805)
@@ -721,7 +721,7 @@ Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true;'
 2019-05-25 18:11:38,486 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(12)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 18:11:38,487 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(12)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 18:11:38,511 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(12)-127.0.0.1] Completed initialization in 20 ms
-2019-05-25 18:12:17,518 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-2] Department Get ALL
+2019-05-25 18:12:17,518 INFO DepartmentController [http-nio-8080-exec-2] Department Get ALL
 2019-05-25 18:12:17,572 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
 2019-05-25 18:14:27,407 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
 2019-05-25 18:14:27,412 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
@@ -788,6 +788,6 @@ Caused by: java.lang.IllegalArgumentException: Invalid boolean value 'true;'
 2019-05-25 18:16:59,919 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-25 18:16:59,921 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
 2019-05-25 18:16:59,929 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
-2019-05-25 18:16:59,941 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-1] Department Get ALL
+2019-05-25 18:16:59,941 INFO DepartmentController [http-nio-8080-exec-1] Department Get ALL
 2019-05-25 18:16:59,954 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
-2019-05-25 18:20:00,752 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-4] Department Get ALL
+2019-05-25 18:20:00,752 INFO DepartmentController [http-nio-8080-exec-4] Department Get ALL

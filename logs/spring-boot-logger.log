@@ -7,14 +7,14 @@
 2019-10-04 08:56:52,942 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerIntegrationTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
 2019-10-04 08:56:52,943 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2019-10-04 08:56:59,263 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerIntegrationTest in 6.417 seconds (JVM running for 61.496)
-2019-10-04 08:57:00,700 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-1] Department added Department{id=1, name='Mathematics'}
-2019-10-04 08:57:01,058 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-2] Department added Department{id=2, name='Test Dept'}
-2019-10-04 08:57:01,316 INFO org.nrp.crm.service.DepartmentService [http-nio-auto-1-exec-3] Department found: Department{id=2, name='Test Dept'}
+2019-10-04 08:57:00,700 INFO DepartmentService [http-nio-auto-1-exec-1] Department added Department{id=1, name='Mathematics'}
+2019-10-04 08:57:01,058 INFO DepartmentService [http-nio-auto-1-exec-2] Department added Department{id=2, name='Test Dept'}
+2019-10-04 08:57:01,316 INFO DepartmentService [http-nio-auto-1-exec-3] Department found: Department{id=2, name='Test Dept'}
 2019-10-04 08:57:01,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentControllerTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
 2019-10-04 08:57:01,493 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2019-10-04 08:57:04,207 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentControllerTest in 2.757 seconds (JVM running for 66.44)
 2019-10-04 08:57:04,943 INFO org.springframework.boot.StartupInfoLogger [main] Starting DepartmentServiceTest on vinod with PID 21415 (started by vinod in /home/vinod/Desktop/desk/projects/university_api)
 2019-10-04 08:57:04,956 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
 2019-10-04 08:57:10,306 INFO org.springframework.boot.StartupInfoLogger [main] Started DepartmentServiceTest in 5.439 seconds (JVM running for 72.539)
-2019-10-04 08:57:10,408 INFO org.nrp.crm.service.DepartmentService [main] Department found: Department{id=1, name='Physics'}
-2019-10-04 08:57:10,463 INFO org.nrp.crm.service.DepartmentService [main] Department added Department{id=1, name='Mathematics'}
+2019-10-04 08:57:10,408 INFO DepartmentService [main] Department found: Department{id=1, name='Physics'}
+2019-10-04 08:57:10,463 INFO DepartmentService [main] Department added Department{id=1, name='Mathematics'}

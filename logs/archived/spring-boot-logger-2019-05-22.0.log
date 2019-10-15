@@ -99,10 +99,10 @@
 2019-05-22 07:26:34,147 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-05-22 07:26:34,149 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
 2019-05-22 07:26:34,169 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 20 ms
-2019-05-22 07:26:34,232 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-2] Department Get ALL
+2019-05-22 07:26:34,232 INFO DepartmentController [http-nio-8080-exec-2] Department Get ALL
 2019-05-22 07:26:34,298 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-2] HHH000397: Using ASTQueryTranslatorFactory
-2019-05-22 07:34:52,683 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-5] Department Get ALL
-2019-05-22 07:34:54,472 INFO org.nrp.crm.controller.DepartmentController [http-nio-8080-exec-6] Department Get ALL
+2019-05-22 07:34:52,683 INFO DepartmentController [http-nio-8080-exec-5] Department Get ALL
+2019-05-22 07:34:54,472 INFO DepartmentController [http-nio-8080-exec-6] Department Get ALL
 2019-05-22 07:35:34,591 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "kkk"]
 2019-05-22 11:04:08,375 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-3] Shutting down ExecutorService 'applicationTaskExecutor'
 2019-05-22 11:04:08,960 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-3] Closing JPA EntityManagerFactory for persistence unit 'default'

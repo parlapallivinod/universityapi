@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>in.rgukt.r081247</groupId>
-	<artifactId>university_api</artifactId>
+	<artifactId>universityapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>university_api</name>
+	<name>universityapi</name>
 	<description>university api</description>
 
 	<properties>
