@@ -33,7 +33,7 @@
     </appender>
 
     <!-- LOG everything at INFO level -->
-    <root level="warning">
+    <root level="DEBUG">
         <!-- <appender-ref ref="RollingFile" /> -->
         <appender-ref ref="Console" />
     </root>
@@ -43,5 +43,7 @@
         <appender-ref ref="RollingFile" />
         <!-- <appender-ref ref="Console" /> -->
     </logger>
+
+
 
 </configuration>

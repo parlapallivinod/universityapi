@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: in.rgukt.r081247.universityapi.CrmApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.282 s <<< FAILURE! - in in.rgukt.r081247.universityapi.CrmApplicationTests
+contextLoads(in.rgukt.r081247.universityapi.CrmApplicationTests)  Time elapsed: 0.04 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseController': Unsatisfied dependency expressed through field 'courseService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseService': Unsatisfied dependency expressed through field 'departmentRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'in.rgukt.r081247.universityapi.repository.DepartmentRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseService': Unsatisfied dependency expressed through field 'departmentRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'in.rgukt.r081247.universityapi.repository.DepartmentRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'in.rgukt.r081247.universityapi.repository.DepartmentRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

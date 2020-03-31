@@ -33,7 +33,7 @@
     </appender>
 
     <!-- LOG everything at INFO level -->
-    <root level="IN">
+    <root level="DEBUG">
         <!-- <appender-ref ref="RollingFile" /> -->
         <appender-ref ref="Console" />
     </root>
