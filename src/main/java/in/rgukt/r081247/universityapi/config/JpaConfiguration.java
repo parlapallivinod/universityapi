@@ -6,6 +6,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "org.nrp.crm.repository")
-public class CrmCofig {
+@EnableJpaRepositories(basePackages = "in.rgukt.r081247.universityapi.repository")
+public class JpaConfiguration {
 }
