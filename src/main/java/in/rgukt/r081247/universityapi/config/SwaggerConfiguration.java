@@ -23,6 +23,6 @@ public class SwaggerConfig {
 */
 
 package in.rgukt.r081247.universityapi.config;
-public class SwaggerConfig {
+public class SwaggerConfiguration {
 	
 }

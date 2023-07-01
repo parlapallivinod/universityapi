@@ -34,13 +34,13 @@
 
     <!-- LOG everything at INFO level -->
     <root level="DEBUG">
-        <!-- <appender-ref ref="RollingFile" /> -->
+        <appender-ref ref="RollingFile" />
         <appender-ref ref="Console" />
     </root>
 
     <!-- LOG "org.nrg.crm*" at TRACE level -->
-    <logger name="org.nrp.crm" level="info" additivity="false">
-        <appender-ref ref="RollingFile" />
+    <logger name="in.rgukt.r081247.universityapi" level="DEBUG" additivity="false">
+        <!-- <appender-ref ref="RollingFile" /> -->
         <!-- <appender-ref ref="Console" /> -->
     </logger>
 

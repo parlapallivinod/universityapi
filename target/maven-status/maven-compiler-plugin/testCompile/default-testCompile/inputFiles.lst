@@ -1,5 +1,5 @@
-/home/vinod/Desktop/desk/projects/universityapi/src/test/java/in/rgukt/r081247/universityapi/controller/DepartmentControllerTest.java
-/home/vinod/Desktop/desk/projects/universityapi/src/test/java/in/rgukt/r081247/universityapi/controller/DepartmentControllerIntegrationTest.java
-/home/vinod/Desktop/desk/projects/universityapi/src/test/java/in/rgukt/r081247/universityapi/CrmApplicationTests.java
-/home/vinod/Desktop/desk/projects/universityapi/src/test/java/in/rgukt/r081247/universityapi/service/DepartmentServiceTest.java
-/home/vinod/Desktop/desk/projects/universityapi/src/test/java/in/rgukt/r081247/universityapi/repository/DepartmentRepositoryTest.java
+/home/vinod/Desktop/projects/apis/universityapi/src/test/java/in/rgukt/r081247/universityapi/service/DepartmentServiceTest.java
+/home/vinod/Desktop/projects/apis/universityapi/src/test/java/in/rgukt/r081247/universityapi/controller/DepartmentControllerTest.java
+/home/vinod/Desktop/projects/apis/universityapi/src/test/java/in/rgukt/r081247/universityapi/CrmApplicationTests.java
+/home/vinod/Desktop/projects/apis/universityapi/src/test/java/in/rgukt/r081247/universityapi/repository/DepartmentRepositoryTest.java
+/home/vinod/Desktop/projects/apis/universityapi/src/test/java/in/rgukt/r081247/universityapi/controller/DepartmentControllerIntegrationTest.java

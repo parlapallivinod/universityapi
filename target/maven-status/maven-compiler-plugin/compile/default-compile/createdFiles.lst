@@ -1,11 +1,10 @@
 in/rgukt/r081247/universityapi/entity/Department.class
 in/rgukt/r081247/universityapi/exception/RecordNotFoundException.class
-in/rgukt/r081247/universityapi/config/CrmCofig.class
 in/rgukt/r081247/universityapi/exception/CustomExceptionHandler.class
 in/rgukt/r081247/universityapi/repository/DepartmentRepository.class
-in/rgukt/r081247/universityapi/config/SwaggerConfig.class
 in/rgukt/r081247/universityapi/entity/Course.class
 in/rgukt/r081247/universityapi/controller/StudentController.class
+in/rgukt/r081247/universityapi/config/JpaConfiguration.class
 in/rgukt/r081247/universityapi/exception/ErrorResponse.class
 in/rgukt/r081247/universityapi/service/StudentService.class
 in/rgukt/r081247/universityapi/entity/Student.class
@@ -13,8 +12,9 @@ in/rgukt/r081247/universityapi/CrmApplication.class
 in/rgukt/r081247/universityapi/config/SecurityConfiguration.class
 in/rgukt/r081247/universityapi/controller/TestController.class
 in/rgukt/r081247/universityapi/service/CourseService.class
-in/rgukt/r081247/universityapi/repository/CourseRepository.class
+in/rgukt/r081247/universityapi/config/SwaggerConfiguration.class
 in/rgukt/r081247/universityapi/controller/CourseController.class
+in/rgukt/r081247/universityapi/repository/CourseRepository.class
 in/rgukt/r081247/universityapi/service/DepartmentService.class
 in/rgukt/r081247/universityapi/controller/DepartmentController.class
 in/rgukt/r081247/universityapi/repository/StudentRepository.class

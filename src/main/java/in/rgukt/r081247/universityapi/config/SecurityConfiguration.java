@@ -26,8 +26,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity httpSecurity) throws Exception {
     	httpSecurity
-   	 .sessionManagement()
-   	 .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+         .sessionManagement()
+         .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     	/*
     	 httpSecurity
          .authorizeRequests()

@@ -2,24 +2,23 @@ package in.rgukt.r081247.universityapi.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.context.annotation.EnableLoadTimeWeaving;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import in.rgukt.r081247.universityapi.CrmApplication;
 import in.rgukt.r081247.universityapi.entity.Department;;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest(classes = CrmApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class DepartmentControllerIntegrationTest {
 
@@ -30,7 +29,6 @@ public class DepartmentControllerIntegrationTest {
 	private TestRestTemplate testRestTemplate;
 	
 	@Test
-	//@Ignore
 	public void testAddDepartment() throws Exception {
 
 		Department department = new Department();
@@ -51,8 +49,8 @@ public class DepartmentControllerIntegrationTest {
 		System.out.println("responseIn: " + responseInJson);
 		System.out.println("inputIn: " + inputInJson);
 		assertThat(responseInJson).isEqualTo(inputInJson);
+		System.out.println("DepartmentControllerIntegrationTest.testAddDepartment()");
 	}
-	
 
 	@Test
 	public void testGetDepartmentById() throws Exception {
@@ -76,36 +74,9 @@ public class DepartmentControllerIntegrationTest {
 		System.out.println(inputInJson);
 		System.out.println(response.getBody());
 		assertThat(response.getBody()).isEqualTo(inputInJson);
+		System.out.println("DepartmentControllerIntegrationTest.testGetDepartmentById()");
 	}
 
-	/*
-	@Test
-	public void testGetTicketByEmail() throws Exception {
-		
-		Ticket ticket = new Ticket();
-		ticket.setTicketId(3);
-		ticket.setPassengerName("Marry Johnson");
-		ticket.setSourceStation("Delhi");
-		ticket.setDestStation("Mumbai");
-		ticket.setBookingDate(new Date());
-		ticket.setEmail("marrry.j2017@gmail.com");
-		
-		String URI = "/api/tickets/create";
-		
-	    String inputInJson = this.mapToJson(ticket);
-		
-		HttpEntity<Ticket> entity = new HttpEntity<Ticket>(ticket, headers);
-		testRestTemplate.exchange(
-				formFullURLWithPort(URI),
-				HttpMethod.POST, entity, String.class);
-		
-		String URIToGetTicket = "/api/tickets/email/marrry.j2017@gmail.com";
-		String bodyJsonResponse = testRestTemplate.getForObject(formFullURLWithPort(URIToGetTicket), String.class);
-		assertThat(bodyJsonResponse).isEqualTo(inputInJson);
-		
-	}
-	*/
-	
 	/**
 	 * this utility method Maps an Object into a JSON String. Uses a Jackson ObjectMapper.
 	 */

@@ -20,9 +20,10 @@ public class DepartmentService {
     private static final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
     private static final RecordNotFoundException DEPARTMENT_NOT_FOUND_EXCEPTION = new RecordNotFoundException("Department not found");
 
+
     private DepartmentRepository departmentRepository;
 
-    @Autowired
+    @Autowired(required = true)
     public DepartmentService(DepartmentRepository departmentRepository) {
         this.departmentRepository = departmentRepository;
     }

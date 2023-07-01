@@ -1,15 +1,15 @@
 package in.rgukt.r081247.universityapi.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.security.test.context.support.WithMockUser;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.security.test.context.support.WithMockUser;;
 import org.springframework.security.access.AccessDeniedException;
 
 import in.rgukt.r081247.universityapi.repository.DepartmentRepository;
@@ -18,7 +18,6 @@ import in.rgukt.r081247.universityapi.entity.Department;
 import javax.validation.ConstraintViolationException;
 import java.util.Optional;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 public class DepartmentServiceTest {
 
@@ -28,7 +27,7 @@ public class DepartmentServiceTest {
 	@MockBean
 	private DepartmentRepository departmentRepository;
 
-	@Test(expected = AccessDeniedException.class)
+	@Test
 	@WithMockUser(username = "user", roles = {"USER"})
 	public void testAddDepartment1(){
 
@@ -37,7 +36,12 @@ public class DepartmentServiceTest {
 		department.setName("Mathematics");
 
 		Mockito.when(departmentRepository.save(department)).thenReturn(department);
-		assertThat(departmentService.addDepartment(department)).isEqualTo(department);
+		AccessDeniedException exception = assertThrows(AccessDeniedException.class, () -> {
+			assertThat(departmentService.addDepartment(department)).isEqualTo(department);
+		});
+		System.out.println("Exception: " + exception);
+		assertThat(exception).isNotNull();
+		System.out.println("DepartmentServiceTest.testAddDepartment1()");
 	}
 
 	@WithMockUser(username = "admin", roles = {"ADMIN"})
@@ -50,9 +54,10 @@ public class DepartmentServiceTest {
 
 		Mockito.when(departmentRepository.save(department)).thenReturn(department);
 		assertThat(departmentService.addDepartment(department)).isEqualTo(department);
+		System.out.println("DepartmentServiceTest.testAddDepartment2()");
 	}
 
-	@Test(expected = ConstraintViolationException.class)
+	@Test
 	@WithMockUser(username = "admin", roles = {"ADMIN"})
 	public void testAddDepartment3(){
 
@@ -60,10 +65,15 @@ public class DepartmentServiceTest {
 		department.setId(1L);
 
 		Mockito.when(departmentRepository.save(department)).thenThrow(ConstraintViolationException.class);
-		assertThat(departmentService.addDepartment(department)).isEqualTo(department);
+		ConstraintViolationException exception = assertThrows(ConstraintViolationException.class, () -> {
+			assertThat(departmentService.addDepartment(department)).isEqualTo(department);
+		});
+		System.out.println("Exception: " + exception);
+		assertThat(exception).isNotNull();
+		System.out.println("DepartmentServiceTest.testAddDepartment3()");
 	}
 
-	@Test(expected = AccessDeniedException.class)
+	@Test
 	@WithMockUser(username = "test", roles = {"TEST"})
 	public void testGetDepartmentById1(){
 		Department department = new Department();
@@ -71,7 +81,12 @@ public class DepartmentServiceTest {
 		department.setName("Physics");
 
 		Mockito.when(departmentRepository.findById(1L)).thenReturn(Optional.of(department));
-		assertThat(departmentService.getDepartmentById(1L)).isEqualTo(department);
+		AccessDeniedException exception = assertThrows(AccessDeniedException.class, () -> {
+			assertThat(departmentService.getDepartmentById(1L)).isEqualTo(department);
+		});
+		System.out.println("Exception: " + exception);
+		assertThat(exception).isNotNull();
+		System.out.println("DepartmentServiceTest.testGetDepartmentById1()");
 	}
 
 	@Test
@@ -83,6 +98,6 @@ public class DepartmentServiceTest {
 
 		Mockito.when(departmentRepository.findById(1L)).thenReturn(Optional.of(department));
 		assertThat(departmentService.getDepartmentById(1L)).isEqualTo(department);
+		System.out.println("DepartmentServiceTest.testGetDepartmentById2()");
 	}
-
 }

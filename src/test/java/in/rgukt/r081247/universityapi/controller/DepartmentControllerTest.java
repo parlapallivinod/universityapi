@@ -1,13 +1,14 @@
 package in.rgukt.r081247.universityapi.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -24,7 +25,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import in.rgukt.r081247.universityapi.entity.Department;
 import in.rgukt.r081247.universityapi.service.DepartmentService;
 
-@RunWith(SpringRunner.class)
 @WebMvcTest(value=DepartmentController.class)
 public class DepartmentControllerTest {
 
@@ -35,8 +35,7 @@ public class DepartmentControllerTest {
 	private DepartmentService departmentService;
 	
 	@Test
-	@WithMockUser(username="admin")
-	//@Ignore
+	@WithMockUser(username="admin", roles = {"ADMIN"})
 	public void testAddDepartment() throws Exception {
 		
 		Department mockDepartment = new Department();
@@ -61,10 +60,11 @@ public class DepartmentControllerTest {
 		
 		assertThat(outputInJson).isEqualTo(inputInJson);
 		assertEquals(HttpStatus.CREATED.value(), response.getStatus());
+		System.out.println("DepartmentControllerTest.testAddDepartment()");
 	}
 
 	@Test
-	@WithMockUser(username="abc", roles = {"ABC"})
+	@WithMockUser(username="admin", roles = {"ADMIN"})
 	public void testGetDepartmentById() throws Exception {
 		Department mockDepartment = new Department();
 		mockDepartment.setId(1L);
@@ -81,6 +81,7 @@ public class DepartmentControllerTest {
 		String expectedJson = this.mapToJson(mockDepartment);
 		String outputInJson = result.getResponse().getContentAsString();
 		assertThat(outputInJson).isEqualTo(expectedJson);
+		System.out.println("DepartmentControllerTest.testGetDepartmentById()");
 	}
 
 	/**
