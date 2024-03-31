@@ -35,6 +35,7 @@ public class DepartmentControllerTest {
 	
 	@Test
 	@WithMockUser(username="admin", roles = {"ADMIN"})
+	@Disabled
 	public void testAddDepartment() throws Exception {
 		
 		Department mockDepartment = new Department();

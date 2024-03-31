@@ -3,8 +3,8 @@ package in.rgukt.r081247.universityapi.entity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.validator.constraints.Length;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;

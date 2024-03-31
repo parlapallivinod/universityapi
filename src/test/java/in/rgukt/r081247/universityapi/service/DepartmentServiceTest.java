@@ -15,7 +15,7 @@ import org.springframework.security.access.AccessDeniedException;
 import in.rgukt.r081247.universityapi.repository.DepartmentRepository;
 import in.rgukt.r081247.universityapi.entity.Department;
 
-import javax.validation.ConstraintViolationException;
+import jakarta.validation.ConstraintViolationException;
 import java.util.Optional;
 
 @SpringBootTest
