@@ -2,6 +2,7 @@ package in.rgukt.r081247.universityapi.controller;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,11 @@ import org.springframework.http.ResponseEntity;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import in.rgukt.r081247.universityapi.CrmApplication;
-import in.rgukt.r081247.universityapi.entity.Department;;
+import in.rgukt.r081247.universityapi.entity.Department;
+import org.springframework.test.annotation.Rollback;;
 
 @SpringBootTest(classes = CrmApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+@Transactional
 public class DepartmentControllerIntegrationTest {
 
 	@LocalServerPort
@@ -29,10 +32,11 @@ public class DepartmentControllerIntegrationTest {
 	private TestRestTemplate testRestTemplate;
 	
 	@Test
+	@Rollback
 	public void testAddDepartment() throws Exception {
 
 		Department department = new Department();
-		department.setId(1L);
+		//department.setId(1L);
 		department.setName("Mathematics");
 		
 		String URIToCreateDepartment= "/api/departments";
@@ -41,14 +45,14 @@ public class DepartmentControllerIntegrationTest {
 		HttpHeaders headers = new HttpHeaders();
 	    headers.setBasicAuth("admin", "adminpass");
 		HttpEntity<Department> entity = new HttpEntity<>(department, headers);
-		ResponseEntity<String> response = testRestTemplate.exchange(
+		ResponseEntity<Department> response = testRestTemplate.exchange(
 				formFullURLWithPort(URIToCreateDepartment),
-				HttpMethod.POST, entity, String.class);
+				HttpMethod.POST, entity, Department.class);
 		
-		String responseInJson = response.getBody();
-		System.out.println("responseIn: " + responseInJson);
-		System.out.println("inputIn: " + inputInJson);
-		assertThat(responseInJson).isEqualTo(inputInJson);
+		Department responseDepartment = response.getBody();
+		System.out.println("response: " + responseDepartment);
+		System.out.println("input: " + department);
+		assertThat(department.getName()).isEqualTo(responseDepartment.getName());
 		System.out.println("DepartmentControllerIntegrationTest.testAddDepartment()");
 	}
 
@@ -56,7 +60,7 @@ public class DepartmentControllerIntegrationTest {
 	public void testGetDepartmentById() throws Exception {
 		
 		Department department = new Department();
-		department.setId(2L);
+		//department.setId(2L);
 		department.setName("Test Dept");
 
 		String inputInJson = this.mapToJson(department);
@@ -64,16 +68,16 @@ public class DepartmentControllerIntegrationTest {
 		headers.setBasicAuth("admin", "adminpass");
 		String URIToCreateDepartment = "/api/departments";
 		HttpEntity<Department> entity = new HttpEntity<Department>(department, headers);
-		testRestTemplate.exchange(formFullURLWithPort(URIToCreateDepartment),
-				HttpMethod.POST, entity, String.class);
+		ResponseEntity<Department> responseDepartment = testRestTemplate.exchange(formFullURLWithPort(URIToCreateDepartment),
+				HttpMethod.POST, entity, Department.class);
 
 		HttpEntity<Object> emptyEntity = new HttpEntity<>(null, headers);
-		String URI = "/api/departments/2";
+		String URI = "/api/departments/" + responseDepartment.getBody().getId().toString();
 
-		ResponseEntity<String> response= testRestTemplate.exchange(formFullURLWithPort(URI), HttpMethod.GET, emptyEntity, String.class);
+		ResponseEntity<Department> response= testRestTemplate.exchange(formFullURLWithPort(URI), HttpMethod.GET, emptyEntity, Department.class);
 		System.out.println(inputInJson);
 		System.out.println(response.getBody());
-		assertThat(response.getBody()).isEqualTo(inputInJson);
+		assertThat(response.getBody().getName()).isEqualTo(department.getName());
 		System.out.println("DepartmentControllerIntegrationTest.testGetDepartmentById()");
 	}
 
