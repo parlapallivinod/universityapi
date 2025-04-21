@@ -32,7 +32,6 @@ public class DepartmentControllerIntegrationTest {
 	private TestRestTemplate testRestTemplate;
 	
 	@Test
-	@Rollback
 	public void testAddDepartment() throws Exception {
 
 		Department department = new Department();

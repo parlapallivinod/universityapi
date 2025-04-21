@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: in.rgukt.r081247.universityapi.service.DepartmentServiceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.110 s -- in in.rgukt.r081247.universityapi.service.DepartmentServiceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.637 s -- in in.rgukt.r081247.universityapi.service.DepartmentServiceTest

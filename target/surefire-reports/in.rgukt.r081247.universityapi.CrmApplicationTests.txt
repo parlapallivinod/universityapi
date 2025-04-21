@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: in.rgukt.r081247.universityapi.CrmApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.393 s -- in in.rgukt.r081247.universityapi.CrmApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.60 s -- in in.rgukt.r081247.universityapi.CrmApplicationTests
